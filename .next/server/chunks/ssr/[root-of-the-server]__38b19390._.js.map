@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/nickparsons/Projects/consulting/src/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <main className=\"grid min-h-screen place-items-center bg-white text-gray-900\">\n      <h1 className=\"text-5xl font-semibold tracking-tight\">consulting</h1>\n    </main>\n  );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAG,WAAU;sBAAwC;;;;;;;;;;;AAG5D","debugId":null}}]
+}
