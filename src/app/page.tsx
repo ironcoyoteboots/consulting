@@ -59,7 +59,7 @@ export default function Home() {
           </h2>
           <p className="text-gray-700 text-lg">
             Most slowdowns aren’t about talent. They’re about alignment.
-            I partner with teams to spot where priorities or communication have slipped out of sync,
+            We partner with teams to spot where priorities or communication have slipped out of sync,
             then we refine delivery together until engagement, momentum, and predictability return.
           </p>
         </section>
