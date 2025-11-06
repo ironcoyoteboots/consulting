@@ -55,7 +55,7 @@ export default function Home() {
       <main className="container py-16 md:py-20 space-y-24">
         <section>
           <h2 className="text-3xl font-semibold tracking-tight mb-4 text-gray-500">
-            Growth brings complexity, it becomes harder to stay <span className="text-cyan-600">aligned.</span>
+            Growth brings complexity. It becomes harder to stay <span className="text-cyan-600">aligned.</span>
           </h2>
           <p className="text-gray-700 text-lg">
             Most slowdowns aren’t about talent. They’re about alignment.
