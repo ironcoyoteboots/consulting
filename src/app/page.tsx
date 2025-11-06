@@ -1,150 +1,101 @@
-// app/page.tsx  (or src/app/page.tsx if you use src/)
 import Link from "next/link";
+import Pillars from "./components/pillars";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div>
-      {/* Hero */}
-      <section className="section">
-        <div className="container">
-          <div className="grid items-center gap-8 md:grid-cols-2">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
-                Align delivery. Ship faster. Lead better.
+    <>
+      {/* HERO: full-bleed image, shorter height, content constrained to container */}
+      <section className="relative w-screen h-[60vh] md:h-[70vh] overflow-hidden left-1/2 right-1/2 -mx-[50vw]">
+        {/* Background */}
+        <div className="absolute inset-0">
+          <img
+            src="/images/hikers.jpg"
+            alt="Aligned hikers on a mountain trail"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/45" />
+          <div className="absolute bottom-0 left-0 right-0 h-2 md:h-2 bg-gradient-to-b from-transparent to-white" />
+        </div>
+
+        {/* Overlay content constrained to the same width as the rest of the page */}
+        <div className="relative z-10 flex h-full items-start pt-12 md:pt-18">
+          <div className="container text-center">
+            <div className="mx-auto max-w-5xl px-4 -mt-2 md:-mt-2">
+              <h1 className="font-bold leading-tight mb-4 drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]
+                             text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-white">
+                Helping leaders and teams align{" "}
+                <span className="text-cyan-400">vision</span>,{" "}
+                <span className="text-cyan-400">process</span> and{" "}
+                <span className="text-cyan-400">delivery</span>.
               </h1>
-              <p className="mt-4 text-lg text-slate-600">
-                I help teams align product, engineering, and delivery—so you
-                can move quickly without breaking trust or quality.
+              <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-100 mt-13">
+                When people are aligned, work flows, decisions stick, and results follow.
               </p>
-              <div className="mt-6 flex gap-3">
+
+              <div className="mt-8 flex flex-wrap gap-4 justify-center">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center rounded-md px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 transition"
+                  className="bg-cyan-500 text-white font-semibold px-5 md:px-6 py-2.5 md:py-3 rounded-full hover:bg-cyan-700 text-sm md:text-lg"
                 >
-                  Book an intro call
+                  Schedule a call
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-flex items-center rounded-md px-4 py-2 border border-slate-300 hover:border-slate-400"
+                  className="border border-white text-white font-semibold px-5 md:px-6 py-2.5 md:py-3 rounded-full hover:bg-white/10 text-sm md:text-lg"
                 >
-                  Services
+                  See services
                 </Link>
               </div>
             </div>
-            <div className="rounded-lg border border-[var(--border)] p-6">
-              <ul className="space-y-3 text-sm text-slate-700">
-                <li>• Delivery frameworks that scale</li>
-                <li>• Roadmapping & prioritization that sticks</li>
-                <li>• Team rituals that reduce chaos</li>
-                <li>• Metrics & dashboards that matter</li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* 3 pillars / Services preview */}
-      <section className="section bg-[var(--bg-muted)] border-y border-[var(--border)]">
-        <div className="container">
-          <h2 className="text-2xl font-semibold">How I help</h2>
-          <p className="mt-2 text-slate-600">
-            Engagements tailored to your stage and goals.
-          </p>
-
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-lg border border-[var(--border)] p-6">
-              <h3 className="font-semibold">Delivery Systems</h3>
-              <p className="mt-2 text-slate-600">
-                Light-weight, repeatable delivery rituals. Establish clear
-                owner loops, demo cadence, and release hygiene.
-              </p>
-            </div>
-            <div className="rounded-lg border border-[var(--border)] p-6">
-              <h3 className="font-semibold">Product & Prioritization</h3>
-              <p className="mt-2 text-slate-600">
-                Shape work, de-risk unknowns, clarify scope. Stop thrash and
-                ship what moves the needle.
-              </p>
-            </div>
-            <div className="rounded-lg border border-[var(--border)] p-6">
-              <h3 className="font-semibold">Org & Leadership Coaching</h3>
-              <p className="mt-2 text-slate-600">
-                1:1s, staff mentoring, interviewing, onboarding, and team
-                alignment—built for sustainable pace.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6">
-            <Link
-              href="/services"
-              className="text-blue-600 hover:underline"
-            >
-              See all services →
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Case teasers */}
-      <section className="section">
-        <div className="container">
-          <h2 className="text-2xl font-semibold">Selected work</h2>
-          <p className="mt-2 text-slate-600">
-            A few examples of outcomes and impact.
-          </p>
-
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <article className="rounded-lg border border-[var(--border)] p-6">
-              <header className="flex items-baseline justify-between">
-                <h3 className="font-semibold">Mobile growth platform</h3>
-                <span className="text-xs text-slate-500">Case study</span>
-              </header>
-              <p className="mt-2 text-slate-600">
-                Rebuilt delivery flow and release cadence; cut cycle time by 38%
-                and increased on-time releases to 92%.
-              </p>
-              <Link href="/cases" className="mt-3 inline-block text-blue-600 hover:underline">
-                Read more →
-              </Link>
-            </article>
-
-            <article className="rounded-lg border border-[var(--border)] p-6">
-              <header className="flex items-baseline justify-between">
-                <h3 className="font-semibold">Data product initiative</h3>
-                <span className="text-xs text-slate-500">Case study</span>
-              </header>
-              <p className="mt-2 text-slate-600">
-                Introduced shaping & discovery track; reduced rework by 45% and
-                aligned exec stakeholders on quarterly priorities.
-              </p>
-              <Link href="/cases" className="mt-3 inline-block text-blue-600 hover:underline">
-                Read more →
-              </Link>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="section bg-[var(--bg-muted)] border-t border-[var(--border)]">
-        <div className="container text-center">
-          <h2 className="text-2xl md:text-3xl font-semibold">
-            Let’s align your roadmap and delivery.
+      {/* BELOW-THE-FOLD CONTENT (centered like before) */}
+      <main className="container py-16 md:py-20 space-y-24">
+        <section>
+          <h2 className="text-3xl font-semibold tracking-tight mb-4 text-gray-500">
+            As teams grow, it becomes harder to stay <span className="text-cyan-600">aligned.</span>
           </h2>
-          <p className="mt-3 text-slate-600">
-            Quick intro call to map goals and the fastest path to impact.
+          <p className="text-gray-700 text-lg">
+            Most slowdowns aren’t about talent. They’re about alignment.
+            I partner with teams to spot where priorities or communication have slipped out of sync,
+            then we refine delivery together until engagement, momentum, and predictability return.
+          </p>
+        </section>
+
+        <Pillars />
+
+        {/* --- Promise --- */}
+        <section className="container">
+          <div className="mx-auto max-w-2xl text-center">
+            <div className="h-px bg-gray-200 mb-8" />
+            <h2 className="text-2xl font-semibold text-gray-600">The Align Commitment</h2>
+            <p className="mt-2 text-base text-gray-600">
+              A simple promise - if you don’t see value in the first month, you don’t pay.
+            </p>
+          </div>
+        </section>
+
+        {/* --- CTA --- */}
+        <section className="container text-center">
+          <h3 className="text-2xl md:text-3xl font-semibold text-gray-600">
+            Ready to bring alignment to your team?
+          </h3>
+          <p className="mt-3 text-gray-600">
+            Let’s talk about what’s working, what’s not, and where clarity could unlock your next level.
           </p>
           <div className="mt-6">
             <Link
               href="/contact"
-              className="inline-flex items-center rounded-md px-5 py-2.5 text-white bg-blue-600 hover:bg-blue-700 transition"
+              className="inline-block bg-cyan-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-cyan-700 text-lg transition-colors"
             >
-              Get in touch
+              Let’s talk
             </Link>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+
+      </main>
+    </>
   );
 }
