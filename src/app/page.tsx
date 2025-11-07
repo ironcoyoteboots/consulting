@@ -29,8 +29,7 @@ export default function Home() {
                 <span className="text-cyan-400">delivery</span>.
               </h1>
               <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-100 mt-13">
-                When people are aligned, work flows, decisions stick, and results follow.
-              </p>
+                When people are aligned, work moves smoothly, decisions stick, and results follow.              </p>
 
               <div className="mt-8 flex flex-wrap gap-4 justify-center">
                 <Link

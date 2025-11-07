@@ -75,7 +75,7 @@ export default function Pillars() {
               <ChartSpline className="w-12 h-12 mx-auto text-cyan-500 mb-4 mt-4 transition-transform duration-200 group-hover:scale-110" />
               <p className="mt-3 text-gray-700 text-base">
                 Partnering with product, project and engineering teams to strengthen how they collaborate,
-                communicate and work. The result is shared accountability, happier people and a healthier culture.
+                communicate and work. The result is stronger teams, better engagement, and a healthier culture.
               </p>
             </div>
 
