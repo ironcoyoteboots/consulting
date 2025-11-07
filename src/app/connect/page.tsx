@@ -21,13 +21,7 @@ export default function ConnectPage() {
 
                 {/* Booking Card */}
                 <div className="rounded-2xl border border-gray-200 shadow-sm p-8 bg-white max-w-xl mx-auto text-gray-700 ">
-                    <p className="mb-2">
-                        Choose a time that works best for you. 
-                    </p>
-                    <p className="mb-6">                        
-                        Calls are typically 30 minutes.
-                    </p>
-                    <p className="mb-6">
+                    <p className="mb-6 mt-2">
                         <a
                             href="https://calendar.app.google/WrovkBR14NvqZaqR8"
                             target="_blank"
@@ -38,7 +32,7 @@ export default function ConnectPage() {
                         </a>
                     </p>
                     <p>
-                        Or email me directly at{" "}
+                        Choose a time that works best for you or email me directly at{" "}
                         <a
                             href="mailto:nick@aligndelivery.com"
                             className="text-cyan-600 hover:underline"
@@ -46,9 +40,6 @@ export default function ConnectPage() {
                             nick@aligndelivery.com
                         </a>
                         .
-                    </p>
-                    <p className="mt-2">
-                        I personally respond to all inquiries.
                     </p>
                 </div>
 

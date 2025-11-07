@@ -151,7 +151,7 @@ export default function Home() {
           </p>
           <div className="mt-6">
             <Link
-              href="/contact"
+              href="/connect"
               className="inline-block bg-cyan-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-cyan-700 text-lg transition-colors"
             >
               Let’s talk
