@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Handshake, Target, Waypoints, ChartSpline } from "lucide-react";
 
 export default function Pillars() {
   return (

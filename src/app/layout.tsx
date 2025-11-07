@@ -20,9 +20,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="text-cyan-600 group-hover:text-cyan-400">Delivery</span>
             </Link>
             <nav className="flex gap-6 text-sm font-medium">
-              <Link href="/services" className="hover:text-cyan-600 transition">Services</Link>
-              <Link href="/cases" className="hover:text-cyan-600 transition">Cases</Link>
-              <Link href="/contact" className="hover:text-cyan-600 transition">Contact</Link>
+              <Link href="/clients" className="hover:text-cyan-600 transition">Client Stories</Link>
+              <Link href="/connect" className="hover:text-cyan-600 transition">Connect</Link>
             </nav>
           </div>
         </header>
