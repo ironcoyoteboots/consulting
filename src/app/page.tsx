@@ -114,12 +114,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="grid md:grid-cols-3 gap-8 text-gray-700">
               <blockquote className="italic">
-                “Nick brought clarity and calm during a chaotic product transition. We shipped faster than we thought possible.”
-                <footer className="mt-3 text-sm text-gray-500">VP Engineering, Fintech Startup</footer>
+                “Working with Nick was one of the most impactful experiences of my career. He helped me turn frameworks into real, lasting systems that transformed how our team worked together.”
+                <footer className="mt-3 text-sm text-gray-500">Megan, VP Operations</footer>
               </blockquote>
               <blockquote className="italic">
-                “He helped us simplify priorities and rebuild trust between product and engineering.”
-                <footer className="mt-3 text-sm text-gray-500">CTO, Consumer App</footer>
+                “Nick brings a wealth of experience and wisdom to the table and has had a profound impact on my career. He made me a better professional and person by changing the way I approach challenges and opportunities.”
+                <footer className="mt-3 text-sm text-gray-500">Rick, Principal Developer</footer>
               </blockquote>
               <blockquote className="italic">
                 “Nick changed how our leaders think about focus — we got momentum back fast.”

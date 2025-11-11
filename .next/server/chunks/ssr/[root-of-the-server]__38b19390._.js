@@ -311,10 +311,10 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
                                         className: "italic",
                                         children: [
-                                            "“Nick brought clarity and calm during a chaotic product transition. We shipped faster than we thought possible.”",
+                                            "“Working with Nick was one of the most impactful experiences of my career. He helped me turn frameworks into real, lasting systems that transformed how our team worked together.”",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                                                 className: "mt-3 text-sm text-gray-500",
-                                                children: "VP Engineering, Fintech Startup"
+                                                children: "Megan, VP Operations"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 118,
@@ -329,10 +329,10 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
                                         className: "italic",
                                         children: [
-                                            "“He helped us simplify priorities and rebuild trust between product and engineering.”",
+                                            "“Nick brings a wealth of experience and wisdom to the table and has had a profound impact on my career. He made me a better professional and person by changing the way I approach challenges and opportunities.”",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                                                 className: "mt-3 text-sm text-gray-500",
-                                                children: "CTO, Consumer App"
+                                                children: "Rick, Principal Developer"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 122,

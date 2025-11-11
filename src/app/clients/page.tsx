@@ -31,8 +31,8 @@ const CLIENT_STORIES = [
       "Leadership appreciated the steadiness of the new cadence, knowing when to expect releases and how to align upcoming priorities. The entire organization operated with greater focus, energy, and accountability."
     ],
     quote: {
-      text: "",
-      attribution: ""
+      text: "Working with Nick Parsons was one of the most impactful experiences of my career. He was my mentor at the perfect time, right when I was leading our growing dev team’s idea to market process and still finding my footing. Nick immediately rolled up his sleeves and got involved. He didn’t just share frameworks or advice; he worked through real challenges alongside me. Whether it was refining our workflow, deciding on new processes, or rethinking how we ran retros, Nick helped me build systems that truly worked for our unique team while teaching me the reasoning behind each decision. He’s one of those rare people whose influence stays with you long after the project ends.",
+      attribution: "Megan, VP Operations"
     }
   },
   {
