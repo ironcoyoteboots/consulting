@@ -36,7 +36,7 @@ export default function Home() {
                   Schedule a Call
                 </Link>
                 <Link
-                  href="/ v"
+                  href="/clients"
                   className="border border-white text-white font-semibold px-5 md:px-6 py-2.5 md:py-3 rounded-full hover:bg-white/10 text-sm md:text-lg"
                 >
                   Client Stories
