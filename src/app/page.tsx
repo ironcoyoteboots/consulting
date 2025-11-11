@@ -110,20 +110,20 @@ export default function Home() {
 
 
         {/* --- Quotes --- */}
-        <section className="bg-gray-50 py-16 mt-12 rounded-2xl">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="grid md:grid-cols-3 gap-8 text-gray-700">
+        <section className="bg-gray-50 py-12 mt-12 px-0 rounded-2xl">
+          <div className="max-w-5xl mx-auto px-0">
+            <div className="grid md:grid-cols-3 gap-10 text-gray-700 px-2">
               <blockquote className="italic">
-                “Working with Nick was one of the most impactful experiences of my career. He helped me turn frameworks into real, lasting systems that transformed how our team worked together.”
-                <footer className="mt-3 text-sm text-gray-500">Megan, VP Operations</footer>
+                “I’ve brought in Nick at two different companies, and he delivered both times, bringing a rigorous yet developer-friendly process and clear tooling guidance that lifted day-to-day productivity. He tightened collaboration and handoffs across engineering, product, and project management.”
+                <footer className="mt-3 text-sm text-gray-500">- Daniel, CEO</footer>
+              </blockquote>
+              <blockquote className="italic">
+                “Working with Nick Parsons was one of the most impactful experiences of my career. He guided me through real challenges, helping refine our workflow and build systems that truly fit our team. Nick’s influence continues to shape how I lead and approach new opportunities.”
+                <footer className="mt-3 text-sm text-gray-500">- Megan, VP Operations</footer>
               </blockquote>
               <blockquote className="italic">
                 “Nick brings a wealth of experience and wisdom to the table and has had a profound impact on my career. He made me a better professional and person by changing the way I approach challenges and opportunities.”
-                <footer className="mt-3 text-sm text-gray-500">Rick, Principal Developer</footer>
-              </blockquote>
-              <blockquote className="italic">
-                “Nick changed how our leaders think about focus — we got momentum back fast.”
-                <footer className="mt-3 text-sm text-gray-500">Head of Product, Series A SaaS</footer>
+                <footer className="mt-3 text-sm text-gray-500">- Rick, Principal Developer</footer>
               </blockquote>
             </div>
           </div>
